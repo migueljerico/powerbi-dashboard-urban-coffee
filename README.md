@@ -4,7 +4,7 @@
 ![DAX](https://img.shields.io/badge/DAX-Medidas%20calculadas-0078D4?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/Estado-Completado-4CAF50?style=for-the-badge)
 
-> **Ejercicio Práctico — ADGG10: Visualización de Datos con Power BI**  
+> **Ejercicio Práctico — Visualización de Datos con Power BI**  
 > Caso de negocio: cadena de cafeterías ficticia **Urban Coffee**
 
 ---
@@ -165,7 +165,7 @@ Vista optimizada mediante **Vista → Diseño para móviles** con:
 ## 👤 Autor
 
 **Miguel Jericó**  
-Analista de Datos en formación | Ex-Supervisor de Operaciones  
+Analista de Datos en formación |  
 📚 Programa de transición profesional hacia Data Analytics
 
 ---
