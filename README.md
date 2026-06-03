@@ -9,6 +9,16 @@
 
 ---
 
+## 📥 Descarga
+
+[![Descargar .pbix](https://img.shields.io/badge/⬇️%20Descargar%20Dashboard-Power%20BI%20(.pbix)-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://github.com/migueljerico/powerbi-dashboard-urban-coffee/raw/main/Ejercicio_Practico_Visualizacion_Power_BI_Miguel_Jerico.pbix)
+
+[![Ver Release v1.0](https://img.shields.io/badge/📦%20Release-v1.0-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/migueljerico/powerbi-dashboard-urban-coffee/releases/tag/v1.0)
+
+> Requiere **Microsoft Power BI Desktop** (descarga gratuita en [powerbi.microsoft.com](https://powerbi.microsoft.com/es-es/desktop/))
+
+---
+
 ## 📋 Descripción del Proyecto
 
 Dashboard ejecutivo desarrollado en **Microsoft Power BI Desktop** para analizar el rendimiento comercial de una cadena de cafeterías con locales en Madrid, Barcelona, Valencia y Sevilla.
@@ -22,11 +32,11 @@ El objetivo principal es facilitar la **toma de decisiones estratégicas** media
 ```
 powerbi-dashboard-urban-coffee/
 │
-├── 📊 Ejercicio_Práctico_Visualización_Power_BI_Miguel_Jericó.pbix
+├── 📊 Ejercicio_Practico_Visualizacion_Power_BI_Miguel_Jerico.pbix
 │       └── Archivo Power BI Desktop con el dashboard completo
 │
-├── 📄 docs/
-│       └── Caso_Practico_Power_BI_Miguel_Jericó.pdf
+├── 📁 docs/
+│       └── 📄 Caso_Practico_Power_BI_Miguel_Jerico.pdf
 │               └── Documentación técnica detallada paso a paso
 │
 └── 📖 README.md
