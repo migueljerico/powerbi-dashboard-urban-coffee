@@ -3,8 +3,9 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Medidas%20calculadas-0078D4?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/Estado-Completado-4CAF50?style=for-the-badge)
+![Tipo](https://img.shields.io/badge/Práctica-Visualización%20de%20Datos-FF6B6B?style=for-the-badge)
 
-> **Ejercicio Práctico — Visualización de Datos con Power BI**  
+> **Ejercicio Práctico — Visualización de Datos con Power BI (ADGG10)**  
 > Caso de negocio: cadena de cafeterías ficticia **Urban Coffee**
 
 ---
@@ -98,10 +99,10 @@ IF(
 | Visual | Tipo | Objetivo |
 |--------|------|----------|
 | 4 Tarjetas KPI | Tarjeta | Ventas Totales · Pedidos · Ticket Medio · Producto Top |
-| Tendencia temporal | Gráfico de líneas | Evolución de ventas mensuales (ene–jun 2025) |
+| Tendencia temporal | Gráfico de líneas | Evolución de ventas mensuales |
 | Comparativa ciudades | Barras horizontales | Ventas totales por ciudad |
-| Distribución categorías | Gráfico de anillos | % de ventas por categoría (Café/Té/Repostería/Snacks) |
-| Detalle operativo | Tabla | Registros individuales de ventas con totales |
+| Distribución categorías | Gráfico de anillos | % de ventas por categoría |
+| Detalle operativo | Tabla | Registros individuales con totales |
 
 ---
 
@@ -114,8 +115,8 @@ IF(
 | KPIs y números | Marrón medio | `#5B2E0F` |
 | Barras del gráfico | Marrón caña | `#8B4A12` |
 | Línea temporal | Ámbar | `#7A4315` |
-| Categoría Café (anillo) | Marrón oscuro | `#3B1F0F` |
-| Categoría Té (anillo) | Verde tierra | `#4E7D4A` |
+| Categoría Café | Marrón oscuro | `#3B1F0F` |
+| Categoría Té | Verde tierra | `#4E7D4A` |
 | Categoría Repostería | Ámbar | `#7A4315` |
 | Categoría Snacks | Dorado | `#9B7400` |
 
@@ -131,15 +132,11 @@ IF(
 
 ## 📱 Versión Móvil
 
-Vista optimizada mediante **Vista → Diseño para móviles** con:
-- KPIs visibles en la parte superior
-- Filtros en modo selección múltiple compacto
-- Gráfico de barras + gráfico de anillos priorizados
-- Textos y etiquetas reducidos al mínimo
+Vista optimizada mediante **Vista → Diseño para móviles** con KPIs en parte superior, filtros compactos y visualizaciones priorizadas.
 
 ---
 
-## 📈 Resultados del Dashboard (datos de muestra)
+## 📈 Resultados del Dashboard
 
 | KPI | Valor |
 |-----|-------|
@@ -153,21 +150,25 @@ Vista optimizada mediante **Vista → Diseño para móviles** con:
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🧰 Tecnologías utilizadas
 
-- **Microsoft Power BI Desktop**
-- **DAX** (Data Analysis Expressions)
-- **Power Query** (transformación de datos)
-- **Excel** (fuente de datos: UrbanCoffee_Dataset_PowerBI.xlsx)
-
----
-
-## 👤 Autor
-
-**Miguel Jericó**  
-Analista de Datos en formación |  
-📚 Programa de transición profesional hacia Data Analytics
+| Herramienta | Uso |
+|---|---|
+| **Microsoft Power BI Desktop** | Creación del dashboard ejecutivo |
+| **DAX** | Medidas calculadas y KPIs |
+| **Power Query** | Transformación y limpieza de datos |
+| **Excel** | Fuente de datos (UrbanCoffee_Dataset_PowerBI.xlsx) |
 
 ---
 
-*Proyecto realizado como ejercicio práctico del curso ADGG10 – Visualización de Datos con Power BI.*
+## 📚 Contexto formativo
+
+Este ejercicio forma parte del programa de formación en **Análisis de Datos**, dentro del módulo **ADGG10 — Visualización de Datos con Power BI**. El objetivo es desarrollar competencias en modelado de datos (modelo estrella), escritura de medidas DAX y diseño de dashboards ejecutivos interactivos con versión móvil.
+
+**Ejercicio relacionado:** [Dashboard en Data Studio — Urban Coffee](https://github.com/migueljerico/data-studio-dashboard-urban-coffee) — mismo caso de negocio, herramienta Google BI.
+
+---
+
+<p align="center">
+  <sub>Desarrollado por <a href="https://github.com/migueljerico">@migueljerico</a> · 2025</sub>
+</p>
